@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #fff;
+    height: 50vh;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px rgb(144, 144, 144);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.content .form-control {
+background-color: aqua;
+text-align: right;
+}
+
+.content .form-control label {
+    background-color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+
+.content .form-control input {
+padding: 12px;
+}
