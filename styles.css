@@ -18,7 +18,6 @@ body {
 
 .content {
     background-color: #fff;
-    height: 50vh;
     padding: 3rem;
     border-radius: 10px;
     box-shadow: 0px 6px 30px rgb(144, 144, 144);
@@ -28,15 +27,14 @@ body {
 }
 
 .content .form-control {
-background-color: aqua;
 text-align: right;
+margin-bottom: 10px;
 }
 
 .content .form-control label {
-    background-color: rgb(190, 190, 190);
     font-size: 20px;
 }
 
 .content .form-control input {
-padding: 12px;
+    padding: 12px;
 }
